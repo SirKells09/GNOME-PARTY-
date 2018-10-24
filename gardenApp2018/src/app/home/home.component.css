@@ -1,0 +1,42 @@
+#home {
+    background-image: url("../../assets/background.jpg");
+    background-size: cover;
+    height: 900px;
+    /* opacity: 0.5; */
+    /* height: 100%;
+    width: 100%; */
+}
+
+#title {
+    background-color: rgba(0,0,0,0.85);
+    color: #ffc7d1;
+    text-align: center;
+}
+
+#carousel {
+    width: 300px;
+    background-color: black;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin: auto;
+    border: solid #0c0e01;
+    box-shadow: 5px 5px 15px #0c0e01;
+}
+
+#carousel .slide {
+    display: inline-block;
+    height: 100%;
+}
+
+img {
+    height: 200px;
+    width: 300px;
+}
+
+#para {
+    background-color: rgba(0,0,0,0.85);
+    color: #ffc7d1;
+    height: 50%;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
