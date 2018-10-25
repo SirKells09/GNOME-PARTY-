@@ -1,0 +1,129 @@
+#home {
+    background-image: url("../../assets/back4.jpg");
+    background-size: cover;
+    height: 850px;
+    position: relative;
+}
+
+.fade {
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.tDiv {
+    position: relative;
+}
+
+#title {
+    position: absolute;
+    top: 20px;
+    margin: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    color: #ffc7d1;
+    text-shadow: 2px 2px 1px #0c0e01;
+    text-align: center;
+    font-size: 40px;
+    border: solid #0c0e01;
+    border-radius: 5px;
+}
+
+.photoSec {
+    position: absolute;
+    top: 105px;
+    width: 100%;
+}
+
+.carousel {
+    margin: auto;
+    width: 400px;
+    background-color: black;
+    overflow-x: auto;
+    white-space: nowrap;
+    border: solid #0c0e01;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 20px rgb(75,75,75);
+}
+
+.carousel .slide {
+    display: inline-block;
+    height: 100%;
+}
+
+img {
+    height: 250px;
+    width: 400px;
+}
+
+.labelDiv {
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+.label {
+    color: #0c0e01;
+    background-color: #ff917b8e;
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    border: #0c0e01;
+    border-radius: 5px;
+}
+
+#aboutUs {
+    text-align: center;
+    color: #0c0e01;
+    background-color: #ff917b8e;
+    width: 100%;
+    margin-top: 0;
+    border: #0c0e01;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.paraDiv{
+    position: absolute;
+    background-color: rgba(0,0,0,0.55);
+    width: 100%;
+    bottom: 0px;
+    border-top: solid #0c0e019c;
+    border-bottom: solid #0c0e019c;
+
+}
+
+ .para {
+    text-align: center;
+}  
+
+#p1 {
+    display: block;
+    padding: 15px 15px 15px 15px;
+    background-color: #0c0e01;
+    color: #ffc7d1;
+    font-size: 18px;
+    width: 60%;
+    height: 100%;
+    margin: 10px 19% 10px 19%;
+    border: #0c0e01;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 20px rgb(75, 75, 75);
+    text-align: center;
+}
+
+#p {
+    display: inline-block;
+    padding: 15px 15px 15px 15px;
+    background-color: #0c0e01;
+    color: #ffc7d1;
+    font-size: 18px;
+    width: 20%;
+    height: 100%;
+    border: #0c0e01;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 20px rgb(75, 75, 75);
+    vertical-align: top;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+}

@@ -1,0 +1,124 @@
+.container {
+    background-image: url('../../assets/back5.jpg');
+    background-position: cover;
+    height: 900px;
+    position: relative;
+}
+
+.paraSec h1 {
+    background-color: #ff917b8e;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    border: #0c0e01;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 20px rgb(75,75,75);
+    color: #0c0e01;
+}
+
+.paraSec{
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border-top: solid #0c0e019c;
+    padding-bottom: 30px;
+}
+
+#para {
+    background-color: #0c0e01;
+    color: #ffc7d1;
+    font-size: 20px;
+    width: 60%;
+    height: 100%;
+    padding: 20px 40px 20px 40px;
+    margin: auto;
+    border: #0c0e01;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 20px rgb(75,75,75);
+}
+
+.formDiv {
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    bottom: 40px;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    color: #ffc7d1;
+}
+
+.formDiv h1 {
+    color: #0c0e01;
+    background-color: #ff917b8e;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    border-bottom: solid #0c0e019c;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 20px rgb(75,75,75);
+}
+
+.form {
+    width: 50%;
+    height: 400px;
+    text-align: center;
+    margin: auto;
+    background-color: #0c0e01;
+    box-shadow: 0.5px 0.5px 20px rgb(75,75,75);
+}
+
+#in1 {
+    height: 10%;
+    width: 20%;
+    display: inline-block;
+    margin: 10px 20px;
+}
+#in2 {
+    height: 10%;
+    width: 80%;
+    margin: 30px 10% 20px;
+    display: block;
+}
+#in3 {
+    height: 10%;
+    width: 80%;
+    margin: 30px 10% 20px;
+    display: block;
+}
+
+#sub {
+    height: 10%;
+    width: 20%;
+    margin: 135px 40% ;
+    display: block;
+}
+
+label {
+    width: 40%;
+    font-size: 20px;
+    
+}
+
+#in1 input {
+    width: 100%;
+}
+
+input {
+    width: 60%;
+    margin-top: 10px;
+    box-shadow: 0.5px 0.5px 20px #ff917b8e;
+}
+
+#in1 input {
+    height: 50%;
+}
+
+#in2 input {
+    height: 50%;
+}
+
+#in3 input {
+    height: 300%;
+}
