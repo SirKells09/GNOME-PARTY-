@@ -17,7 +17,6 @@
 
 #title {
     position: absolute;
-    /* left: 5%; */
     top: 20px;
     margin: 0;
     width: 100%;
@@ -34,8 +33,6 @@
     position: absolute;
     top: 105px;
     width: 100%;
-    /* margin-bottom: 15px; */
-    /* background-color: rgba(0,0,0,0.55); */
 }
 
 .carousel {
@@ -46,7 +43,6 @@
     white-space: nowrap;
     border: solid #0c0e01;
     border-radius: 5px;
-    /* box-shadow: 5px 5px 15px #0c0e01; */
     box-shadow: 0.5px 0.5px 20px rgb(75,75,75);
 }
 
@@ -63,7 +59,6 @@ img {
 .labelDiv {
     position: absolute;
     width: 100%;
-    /* top: 100%; */
     top: 0;
 }
 
@@ -82,7 +77,6 @@ img {
     color: #0c0e01;
     background-color: #ff917b8e;
     width: 100%;
-    /* margin: auto; */
     margin-top: 0;
     border: #0c0e01;
     border-radius: 10px;
@@ -90,35 +84,20 @@ img {
 }
 
 .paraDiv{
-    /* display: inline-block; */
     position: absolute;
     background-color: rgba(0,0,0,0.55);
     width: 100%;
     bottom: 0px;
-    /* margin-top: 15px; */
-    /* margin: auto; */
     border-top: solid #0c0e019c;
     border-bottom: solid #0c0e019c;
 
 }
 
  .para {
-     /* position: absolute; */
-   /* background-color: #0c0e01;
-    color: #ffc7d1;
-    font-size: 20px;
-    width: 60%;
-    height: 100%; */
-    /* margin: auto; */
     text-align: center;
-    /* border: #0c0e01;
-    border-radius: 10px;
-    box-shadow: 0.5px 0.5px 20px rgb(75, 75, 75);*/
-    /* bottom: -900px; */
 }  
 
 #p1 {
-    /* position: absolute; */
     display: block;
     padding: 15px 15px 15px 15px;
     background-color: #0c0e01;
@@ -126,7 +105,6 @@ img {
     font-size: 18px;
     width: 60%;
     height: 100%;
-    /* margin: auto; */
     margin: 10px 19% 10px 19%;
     border: #0c0e01;
     border-radius: 5px;
@@ -135,7 +113,6 @@ img {
 }
 
 #p {
-    /* position: absolute; */
     display: inline-block;
     padding: 15px 15px 15px 15px;
     background-color: #0c0e01;
@@ -143,7 +120,6 @@ img {
     font-size: 18px;
     width: 20%;
     height: 100%;
-    /* margin: auto; */
     border: #0c0e01;
     border-radius: 5px;
     box-shadow: 0.5px 0.5px 20px rgb(75, 75, 75);
