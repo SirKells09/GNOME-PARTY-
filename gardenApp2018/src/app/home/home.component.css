@@ -97,7 +97,9 @@ img {
     bottom: 0px;
     /* margin-top: 15px; */
     /* margin: auto; */
-    /* border-top: solid #0c0e019c; */
+    border-top: solid #0c0e019c;
+    border-bottom: solid #0c0e019c;
+
 }
 
  .para {
@@ -129,7 +131,7 @@ img {
     border: #0c0e01;
     border-radius: 5px;
     box-shadow: 0.5px 0.5px 20px rgb(75, 75, 75);
-    text-align: left;
+    text-align: center;
 }
 
 #p {
@@ -147,5 +149,5 @@ img {
     box-shadow: 0.5px 0.5px 20px rgb(75, 75, 75);
     vertical-align: top;
     margin: 10px 10px 10px 10px;
-    text-align: left;
+    text-align: center;
 }
