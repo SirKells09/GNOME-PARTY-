@@ -1,13 +1,26 @@
 .container {
-    background-color: pink;
+    background-image: url('../../assets/back5.jpg');
+    background-position: cover;
+    height: 850px;
+    position: relative;
+}
+
+.paraSec h1 {
+    background-color: #ff917b8e;
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    border: #0c0e01;
+    border-radius: 5px;
 }
 
 .paraSec{
-    position: fixed;
-    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 50px;
     width: 100%;
-    height: 100%;
-    margin-top: 30px;
+    /* height: 350px; */
+    background-color: rgba(0,0,0,0.5);
+    color: white;
 }
 
 #para {
@@ -22,6 +35,31 @@
     border-radius: 10px;
 }
 
+.formDiv {
+    /* background-color: green; */
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    bottom: 50px;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    color: #ffc7d1;
+}
+
+.formDiv h1 {
+    color: white;
+    background-color: #ff917b8e;
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    border: #0c0e01;
+    border-radius: 5px;
+}
+
 .form {
-    background-color: gray;
+    width: 40%;
+    height: 300px;
+    text-align: center;
+    margin: auto;
+    background-color: #0c0e01;
 }
